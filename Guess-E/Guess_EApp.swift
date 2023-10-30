@@ -212,7 +212,7 @@ struct Guess_EApp: App {
     @State private var screen: GameScreen = .initial
     @StateObject private var manager: MultipeerManager = .shared
     @StateObject private var openAI: OpenAISwift = OpenAISwift(
-        authToken: "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"
+        authToken: ""
     )
     var body: some Scene {
         WindowGroup {
